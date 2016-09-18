@@ -73,9 +73,14 @@ display: inline-block;
 .section2 {
 display: inline-block;
 }
-.input {
+input {
 height: 40px;
 width: 205px;
+color: #39567d;
+font-size: 20px;
+font-family: Roboto;
+font-weight: 400;
+text-align: center;
 }
 textarea {
 resize: none;
@@ -116,4 +121,5 @@ resize: none;
 	margin-top: 3%;
 	height: 20px;
 	width: 20px;
+	cursor: pointer;
 }
