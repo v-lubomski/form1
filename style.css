@@ -93,8 +93,9 @@ resize: none;
     transition-timing-function: ease-in-out;
     transition-duration: .2s;
     transition-property: background,color;
-    position: relative;
+    position: absolute;
     outline: 0!important;
+	margin-top: 4%;
 }
 .default__button:hover {
     background: #0094D9;
@@ -110,6 +111,9 @@ resize: none;
     top: 0;
     left: 0;
 }
-/*div {
-	line-height: 100%;
-}*/
+.checkbox {
+	margin-right: 3%;
+	margin-top: 3%;
+	height: 20px;
+	width: 20px;
+}
