@@ -51,12 +51,14 @@ position: relative;
 font-family: Roboto;
 font-weight: 100;	
 color: #39567d;
-font-size: 52px;
+font-size: 50px;
 left: 10%;
 top: 7%;
+line-height: 100%;
 }
 p {
 position: relative;
+font-size: 90%;
 color: gray;
 left: 10%;
 top: 10%;
@@ -65,10 +67,17 @@ body {
 background-color: #5a626a;
 }
 .section1 {
-  margin-right: 3%;
-  margin-bottom: 3%;
-  display: inline-block;
+margin-right: 3%;
+margin-bottom: 3%;
+display: inline-block;
 }
 .section2 {
-  display: inline-block;
+display: inline-block;
+}
+.input {
+height: 40px;
+width: 205px;
+}
+textarea {
+resize: none;
 }
